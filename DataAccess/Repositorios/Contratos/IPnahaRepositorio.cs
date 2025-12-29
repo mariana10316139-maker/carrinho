@@ -1,3 +1,6 @@
+using Dominio;
+using System.Collections.Generic;
+
 namespace DataAccess.Repositorios.Contratos
 {
     public interface IPanhaRepositorio

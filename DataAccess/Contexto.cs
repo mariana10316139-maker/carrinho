@@ -1,4 +1,7 @@
-namespace DataAcess;
+using Microsoft.EntityFrameworkCore;
+using Dominio;
+
+namespace DataAccess;
 
 public class Contexto : DbContext
 {
@@ -11,7 +14,7 @@ public class Contexto : DbContext
         );
     }
 
-    protected override void OnModelCreating(OnModelBuilder modelBuilder)
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfiguration(new PanhaConfiguration());
     }
