@@ -4,4 +4,5 @@ public class panha
     public string NomeColobarador {get; set;}
     public int Nmedidas {get; set;}
     public int Nlitros {get; set;}
+    public DateTime data {get; set;}
 }
