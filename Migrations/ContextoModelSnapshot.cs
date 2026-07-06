@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace procafeiro.Migrations
+namespace carrinho.Migrations
 {
     [DbContext(typeof(Contexto))]
     partial class ContextoModelSnapshot : ModelSnapshot
@@ -22,34 +22,34 @@ namespace procafeiro.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("Dominio.Panha", b =>
+            modelBuilder.Entity("Dominio.Motores", b =>
                 {
-                    b.Property<int>("IdPanha")
+                    b.Property<int>("IdMotores")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
-                        .HasColumnName("IdPanha");
+                        .HasColumnName("IdMotores");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdPanha"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdMotores"), 1L, 1);
 
                     b.Property<DateTime>("Data")
                         .HasColumnType("datetime2")
                         .HasColumnName("Data");
 
-                    b.Property<int>("Nlitros")
+                    b.Property<int>("Estado")
                         .HasColumnType("int")
-                        .HasColumnName("Nlitros");
+                        .HasColumnName("Estado");
 
-                    b.Property<int>("Nmedidas")
-                        .HasColumnType("int")
-                        .HasColumnName("Nmedidas");
-
-                    b.Property<string>("NomeColobarador")
+                    b.Property<string>("NomeMotores")
                         .HasColumnType("nvarchar(max)")
-                        .HasColumnName("NomeColobarador");
+                        .HasColumnName("NomeMotores");
 
-                    b.HasKey("IdPanha");
+                    b.Property<int>("Rotacao")
+                        .HasColumnType("int")
+                        .HasColumnName("Rotacao");
 
-                    b.ToTable("Panhas", (string)null);
+                    b.HasKey("IdMotores");
+
+                    b.ToTable("Motores", (string)null);
                 });
 #pragma warning restore 612, 618
         }

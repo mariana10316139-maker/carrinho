@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "kyeab5fZTK0QjFEJOjAi230SsW7Czi1zK+DQyhodRYI=",
-  "Source": "procafeiro",
-  "BasePath": "_content/procafeiro",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"qUUNNzhR9o9QMyjyiEVhwI43v+UG6fXQN5EbXq48jVc=","Source":"carrinho","BasePath":"/","Mode":"Root","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

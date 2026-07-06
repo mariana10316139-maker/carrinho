@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace carrinho.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20251229232820_Inicio")]
-    partial class Inicio
+    [Migration("20260617170844_Motores")]
+    partial class Motores
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -37,10 +37,6 @@ namespace carrinho.Migrations
                         .HasColumnType("datetime2")
                         .HasColumnName("Data");
 
-                    b.Property<int>("Rotacao")
-                        .HasColumnType("int")
-                        .HasColumnName("Rotacao");
-
                     b.Property<int>("Estado")
                         .HasColumnType("int")
                         .HasColumnName("Estado");
@@ -48,6 +44,10 @@ namespace carrinho.Migrations
                     b.Property<string>("NomeMotores")
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("NomeMotores");
+
+                    b.Property<int>("Rotacao")
+                        .HasColumnType("int")
+                        .HasColumnName("Rotacao");
 
                     b.HasKey("IdMotores");
 

@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 //Registra o contexto
 builder.Services.AddDbContext<Contexto>();
 //Registra uma comanda de intemediario entre DB e Interfaces 
-builder.Services.AddScoped<IPanhaRepositorio, PanhaRepositorio>();
+builder.Services.AddScoped<IMotoresRepositorio, MotoresRepositorio>();
 // Add services to the container.
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

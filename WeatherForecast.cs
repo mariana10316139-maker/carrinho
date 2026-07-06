@@ -1,4 +1,4 @@
-namespace procafeiro;
+namespace carrinho;
 
 public class WeatherForecast
 {

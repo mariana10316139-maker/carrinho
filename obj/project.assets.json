@@ -2436,19 +2436,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/gabrielruas/.nuget/packages/": {}
+    "C:\\Users\\SEEMG\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/NO NAME/GoogleDriveMacbook/Itera360/API/Desafio/Projetos Desafio/procafeiro/procafeiro.csproj",
-      "projectName": "procafeiro",
-      "projectPath": "/Volumes/NO NAME/GoogleDriveMacbook/Itera360/API/Desafio/Projetos Desafio/procafeiro/procafeiro.csproj",
-      "packagesPath": "/Users/gabrielruas/.nuget/packages/",
-      "outputPath": "/Volumes/NO NAME/GoogleDriveMacbook/Itera360/API/Desafio/Projetos Desafio/procafeiro/obj/",
+      "projectUniqueName": "c:\\Users\\SEEMG\\Desktop\\YAN 3° EMTI\\carrinho\\carrinho.csproj",
+      "projectName": "carrinho",
+      "projectPath": "c:\\Users\\SEEMG\\Desktop\\YAN 3° EMTI\\carrinho\\carrinho.csproj",
+      "packagesPath": "C:\\Users\\SEEMG\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\SEEMG\\Desktop\\YAN 3° EMTI\\carrinho\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/gabrielruas/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\SEEMG\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -2466,7 +2466,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net6.0": {
@@ -2520,7 +2526,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.428/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
