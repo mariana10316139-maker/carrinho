@@ -66,3 +66,4 @@ C:\Users\SEEMG\Desktop\YAN 3° EMTI\carrinho\obj\Debug\net6.0\refint\carrinho.dl
 C:\Users\SEEMG\Desktop\YAN 3° EMTI\carrinho\obj\Debug\net6.0\carrinho.pdb
 C:\Users\SEEMG\Desktop\YAN 3° EMTI\carrinho\obj\Debug\net6.0\carrinho.genruntimeconfig.cache
 C:\Users\SEEMG\Desktop\YAN 3° EMTI\carrinho\obj\Debug\net6.0\ref\carrinho.dll
+C:\Users\SEEMG\Desktop\YAN 3° EMTI\carrinho\obj\Debug\net6.0\carrinho.sourcelink.json
