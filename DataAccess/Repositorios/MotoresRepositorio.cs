@@ -3,7 +3,6 @@ using Dominio;
 using System.Linq;
 using System.Collections.Generic;
 
-
 namespace DataAccess.Repositorios
 {
     public class MotoresRepositorio : IMotoresRepositorio
@@ -19,7 +18,7 @@ namespace DataAccess.Repositorios
         public Motores ObterPorId(int motoresID)
         {
             return _contexto.Motores
-                .FirstOrDefault(motores => motores.IdMotores == motoresID);
+                .FirstOrDefault(motores => motores.IdMotor == motoresID);
         }
 
         // Adicionar

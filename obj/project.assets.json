@@ -2441,11 +2441,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\SEEMG\\Desktop\\YAN 3° EMTI\\carrinho\\carrinho.csproj",
+      "projectUniqueName": "C:\\Users\\SEEMG\\mariana\\atividades, gabriel\\carrinho\\carrinho.csproj",
       "projectName": "carrinho",
-      "projectPath": "c:\\Users\\SEEMG\\Desktop\\YAN 3° EMTI\\carrinho\\carrinho.csproj",
+      "projectPath": "C:\\Users\\SEEMG\\mariana\\atividades, gabriel\\carrinho\\carrinho.csproj",
       "packagesPath": "C:\\Users\\SEEMG\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\SEEMG\\Desktop\\YAN 3° EMTI\\carrinho\\obj\\",
+      "outputPath": "C:\\Users\\SEEMG\\mariana\\atividades, gabriel\\carrinho\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SEEMG\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2518,6 +2518,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
