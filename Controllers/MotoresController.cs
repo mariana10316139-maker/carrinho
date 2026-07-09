@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Mvc;
 using Dominio;
 using DataAccess.Repositorios.Contratos;
 
-
 [Route("api/[controller]")]
 [ApiController]
 public class MotoresController : ControllerBase
@@ -24,7 +23,7 @@ public class MotoresController : ControllerBase
 
         return Ok(motores);
     }
-    
+
     [HttpGet("{motoresID}")]
     public IActionResult Get(int motoresID)
     {
@@ -40,6 +39,6 @@ public class MotoresController : ControllerBase
     public IActionResult Post([FromBody] Motores motores)
     {
         _motoresRepositorio.AdicionarMotores(motores);
-        return CreatedAtAction(nameof(Get), new {motoresID = motores.IdMotores}, motores);
+        return CreatedAtAction(nameof(Get), new { motoresID = motores.IdMotor }, motores);
     }
 }

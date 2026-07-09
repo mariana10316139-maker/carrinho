@@ -8,16 +8,25 @@ public class MotoresConfiguration : IEntityTypeConfiguration<Motores>
 {
     public void Configure(EntityTypeBuilder<Motores> builder)
     {
-        builder.ToTable("Motores").HasKey(motores => motores.IdMotores);
+        builder.ToTable("Motores");
 
-        builder.Property(motores => motores.IdMotores).HasColumnName("IdMotores");
+        builder.HasKey(x => x.IdMotor);
 
-        builder.Property(motores => motores.NomeMotores).HasColumnName("NomeMotores");
+        builder.Property(x => x.IdMotor)
+            .HasColumnName("IdMotor");
 
-        builder.Property(motores => motores.Estado).HasColumnName("Estado");
+        builder.Property(x => x.NMotor)
+            .HasColumnName("NMotor")
+            .HasMaxLength(100)
+            .IsRequired();
 
-        builder.Property(motores => motores.Rotacao).HasColumnName("Rotacao");
+        builder.Property(x => x.Estado)
+            .HasColumnName("Estado")
+            .IsRequired();
 
-        builder.Property(motores => motores.Data).HasColumnName("Data");
+        builder.Property(x => x.Rotacao)
+            .HasColumnName("Rotacao")
+            .HasPrecision(10, 2)
+            .IsRequired();
     }
 }
